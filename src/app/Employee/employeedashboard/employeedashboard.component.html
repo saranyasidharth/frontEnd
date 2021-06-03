@@ -1,0 +1,26 @@
+<div class="d-flex body" >
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right nav__dropdown-collapse" id="sidebar-wrapper">
+      <div class="sidebar-heading nav__dropdown-content">MENU</div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-light nav__dropdown-item " routerLink ="employeeHome">Home</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light  nav__dropdown-item" routerLink="employeeProfile">Profile</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light nav__dropdown-item" routerLink="employeeRequests">employee Requests</a>
+      </div>
+    </div>
+    
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <nav class="">
+            <!-- <button class="btn btn-primary" id="menu-toggle" (click) = "toggleClass()"></button> -->
+        </nav>
+
+        <div class="container-fluid">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+     
+</div>
+  
